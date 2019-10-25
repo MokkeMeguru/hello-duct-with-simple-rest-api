@@ -15,4 +15,4 @@
  :duct.module.web/api
  {}
  :duct.module/sql
- {}}
+ {:database-url #/duct/env "DATABASE_URL"}}
