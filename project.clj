@@ -5,8 +5,9 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [duct/core "0.7.0"]
                  [duct/module.logging "0.4.0"]
+                 [duct/module.sql "0.5.0"]
                  [duct/module.web "0.7.0"]
-                 [metosin/compojure-api "2.0.0-alpha30"]]
+                 [org.postgresql/postgresql "42.2.5"]]
   :plugins [[duct/lein-duct "0.12.1"]]
   :main ^:skip-aot hello-duct.main
   :resource-paths ["resources" "target/resources"]
